@@ -1,0 +1,138 @@
+[INFO   ] Logger: Record log in /storage/emulated/0/KivyMD-master/demos/kitchen_sink/.kivy/logs/kivy_19-01-07_0.txt
+[WARNING] [Config      ] Upgrading configuration in progress.
+[WARNING] [Config      ] Older configuration version detected (16 instead of 20)
+[INFO   ] Kivy: v1.10.1.dev0, git-ae3665c, 20180425
+[INFO   ] Python: v3.6.2 (default, Apr 25 2018, 09:37:02) 
+[GCC 7.2.0]
+[INFO   ] Factory: 194 symbols loaded
+[INFO   ] Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+[INFO   ] KivyMD: KivyMD version: 0.1.2
+[INFO   ] Text: Provider: sdl2
+[INFO   ] OSC: using <thread> for socket
+[INFO   ] Window: Provider: sdl2
+[INFO   ] GL: Using the "OpenGL ES 2" graphics system
+[INFO   ] GL: Backend used <gl>
+[INFO   ] GL: OpenGL version <b'OpenGL ES 3.1 v1.r12p1-01alp0.62f282720426ab7712f1c6b996a6dc82'>
+[INFO   ] GL: OpenGL vendor <b'ARM'>
+[INFO   ] GL: OpenGL renderer <b'Mali-T720'>
+[INFO   ] GL: OpenGL parsed version: 3, 1
+[INFO   ] GL: Texture max size <8192>
+[INFO   ] GL: Texture max units <16>
+[INFO   ] Window: auto add sdl2 input provider
+[INFO   ] Window: virtual keyboard not allowed, single mode, not docked
+[INFO   ] GL: NPOT texture support is available
+[INFO   ] Loader: using a thread pool of 2 workers
+[WARNING] MDBottomNavigation: 50.0dp is less than the minimum size of 80dp for a MDBottomNavigationItem. We must now expand to 168dp.
+[WARNING] MDBottomNavigation: 33.333333333333336dp is less than the minimum size of 80dp for a MDBottomNavigationItem. We must now expand to 168dp.
+[WARNING] MDBottomNavigation: 25.0dp is less than the minimum size of 80dp for a MDBottomNavigationItem. We must now expand to 168dp.
+[WARNING] MDBottomNavigation: 33.333333333333336dp is less than the minimum size of 80dp for a MDBottomNavigationItem. We must now expand to 168dp.
+[WARNING] MDBottomNavigation: 50.0dp is less than the minimum size of 80dp for a MDBottomNavigationItem. We must now expand to 168dp.
+[WARNING] Base: Unknown <android> provider
+[INFO   ] Base: Start application main loop
+[WARNING] Accordion: not enough space for displaying all children
+[WARNING] Accordion: need 264px, got 100px
+[WARNING] Accordion: layout aborted.
+[WARNING] Base: Failed to import "android" module. Could not remove android presplash.
+[WARNING] Accordion: not enough space for displaying all children
+[WARNING] Accordion: need 264px, got 100px
+[WARNING] Accordion: layout aborted.
+[WARNING] Accordion: not enough space for displaying all children
+[WARNING] Accordion: need 264px, got 100px
+[WARNING] Accordion: layout aborted.
+[INFO   ] Clipboard: Provider: android
+[INFO   ] Base: Leaving application in progress...
+[WARNING] stderr: Traceback (most recent call last):
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.6/site-packages/kivy/lang/builder.py", line 619, in _apply_rule
+[WARNING] stderr:     setattr(widget_set, key, value)
+[WARNING] stderr:   File "kivy/weakproxy.pyx", line 33, in kivy.weakproxy.WeakProxy.__setattr__ (kivy/weakproxy.c:1286)
+[WARNING] stderr:   File "kivy/properties.pyx", line 478, in kivy.properties.Property.__set__ (kivy/properties.c:5206)
+[WARNING] stderr:   File "kivy/properties.pyx", line 1471, in kivy.properties.AliasProperty.set (kivy/properties.c:22851)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.6/site-packages/kivy/uix/widget.py", line 1313, in set_disabled
+[WARNING] stderr:     self.inc_disabled()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.6/site-packages/kivy/uix/widget.py", line 1320, in inc_disabled
+[WARNING] stderr:     self.property('disabled').dispatch(self)
+[WARNING] stderr:   File "kivy/properties.pyx", line 554, in kivy.properties.Property.dispatch (kivy/properties.c:6685)
+[WARNING] stderr:   File "kivy/properties.pyx", line 571, in kivy.properties.Property.dispatch (kivy/properties.c:6631)
+[WARNING] stderr:   File "kivy/_event.pyx", line 1214, in kivy._event.EventObservers.dispatch (kivy/_event.c:13511)
+[WARNING] stderr:   File "kivy/_event.pyx", line 1120, in kivy._event.EventObservers._dispatch (kivy/_event.c:12713)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.6/site-packages/kivymd/button.py", line 178, in on_disabled
+[WARNING] stderr:     super(BaseButton, self).on_disabled(instance, value)
+[WARNING] stderr: AttributeError: 'super' object has no attribute 'on_disabled'
+[WARNING] stderr: 
+[WARNING] stderr: During handling of the above exception, another exception occurred:
+[WARNING] stderr: 
+[WARNING] stderr: Traceback (most recent call last):
+[WARNING] stderr:   File "/storage/emulated/0/KivyMD-master/demos/kitchen_sink/main.py", line 1087, in <module>
+[WARNING] stderr:     KitchenSink().run()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.6/site-packages/kivy/app.py", line 826, in run
+[WARNING] stderr:     runTouchApp()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.6/site-packages/kivy/base.py", line 502, in runTouchApp
+[WARNING] stderr:     EventLoop.window.mainloop()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.6/site-packages/kivy/core/window/window_sdl2.py", line 723, in mainloop
+[WARNING] stderr:     self._mainloop()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.6/site-packages/kivy/core/window/window_sdl2.py", line 460, in _mainloop
+[WARNING] stderr:     EventLoop.idle()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.6/site-packages/kivy/base.py", line 340, in idle
+[WARNING] stderr:     self.dispatch_input()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.6/site-packages/kivy/base.py", line 325, in dispatch_input
+[WARNING] stderr:     post_dispatch_input(*pop(0))
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.6/site-packages/kivy/base.py", line 291, in post_dispatch_input
+[WARNING] stderr:     wid.dispatch('on_touch_up', me)
+[WARNING] stderr:   File "kivy/_event.pyx", line 707, in kivy._event.EventDispatcher.dispatch (kivy/_event.c:7797)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.6/site-packages/kivymd/ripplebehavior.py", line 68, in on_touch_up
+[WARNING] stderr:     return super(CommonRipple, self).on_touch_up(touch)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.6/site-packages/kivymd/button.py", line 314, in on_touch_up
+[WARNING] stderr:     return super(BaseRaisedButton, self).on_touch_up(touch)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.6/site-packages/kivymd/button.py", line 206, in on_touch_up
+[WARNING] stderr:     return super(BaseButton, self).on_touch_up(touch)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.6/site-packages/kivy/uix/behaviors/button.py", line 179, in on_touch_up
+[WARNING] stderr:     self.dispatch('on_release')
+[WARNING] stderr:   File "kivy/_event.pyx", line 703, in kivy._event.EventDispatcher.dispatch (kivy/_event.c:7752)
+[WARNING] stderr:   File "kivy/_event.pyx", line 1214, in kivy._event.EventObservers.dispatch (kivy/_event.c:13511)
+[WARNING] stderr:   File "kivy/_event.pyx", line 1098, in kivy._event.EventObservers._dispatch (kivy/_event.c:12346)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.6/site-packages/kivy/lang/builder.py", line 64, in custom_callback
+[WARNING] stderr:     exec(__kvlang__.co_value, idmap)
+[WARNING] stderr:   File "<string>", line 629, in <module>
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.6/site-packages/kivymd/theming.py", line 351, in __init__
+[WARNING] stderr:     super(ThemableBehavior, self).__init__(**kwargs)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.6/site-packages/kivy/uix/floatlayout.py", line 65, in __init__
+[WARNING] stderr:     super(FloatLayout, self).__init__(**kwargs)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.6/site-packages/kivy/uix/modalview.py", line 152, in __init__
+[WARNING] stderr:     super(ModalView, self).__init__(**kwargs)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.6/site-packages/kivy/uix/anchorlayout.py", line 68, in __init__
+[WARNING] stderr:     super(AnchorLayout, self).__init__(**kwargs)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.6/site-packages/kivy/uix/layout.py", line 76, in __init__
+[WARNING] stderr:     super(Layout, self).__init__(**kwargs)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.6/site-packages/kivymd/backgroundcolorbehavior.py", line 75, in __init__
+[WARNING] stderr:     super(SpecificBackgroundColorBehavior, self).__init__(**kwargs)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.6/site-packages/kivy/uix/widget.py", line 348, in __init__
+[WARNING] stderr:     Builder.apply(self, ignored_consts=self._kwargs_applied_init)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.6/site-packages/kivy/lang/builder.py", line 469, in apply
+[WARNING] stderr:     self._apply_rule(widget, rule, rule, ignored_consts=ignored_consts)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.6/site-packages/kivy/lang/builder.py", line 630, in _apply_rule
+[WARNING] stderr:     e), cause=tb)
+[WARNING] stderr: kivy.lang.builder.BuilderException: Parser: File "<inline>", line 284:
+[WARNING] stderr: ...
+[WARNING] stderr:     282:                                    size: self.size
+[WARNING] stderr:     283:                                    pos: self.pos
+[WARNING] stderr: >>  284:                            disabled: True
+[WARNING] stderr:     285:
+[WARNING] stderr:     286:        MDTab:
+[WARNING] stderr: ...
+[WARNING] stderr: AttributeError: 'super' object has no attribute 'on_disabled'
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.6/site-packages/kivy/lang/builder.py", line 619, in _apply_rule
+[WARNING] stderr:     setattr(widget_set, key, value)
+[WARNING] stderr:   File "kivy/weakproxy.pyx", line 33, in kivy.weakproxy.WeakProxy.__setattr__ (kivy/weakproxy.c:1286)
+[WARNING] stderr:   File "kivy/properties.pyx", line 478, in kivy.properties.Property.__set__ (kivy/properties.c:5206)
+[WARNING] stderr:   File "kivy/properties.pyx", line 1471, in kivy.properties.AliasProperty.set (kivy/properties.c:22851)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.6/site-packages/kivy/uix/widget.py", line 1313, in set_disabled
+[WARNING] stderr:     self.inc_disabled()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.6/site-packages/kivy/uix/widget.py", line 1320, in inc_disabled
+[WARNING] stderr:     self.property('disabled').dispatch(self)
+[WARNING] stderr:   File "kivy/properties.pyx", line 554, in kivy.properties.Property.dispatch (kivy/properties.c:6685)
+[WARNING] stderr:   File "kivy/properties.pyx", line 571, in kivy.properties.Property.dispatch (kivy/properties.c:6631)
+[WARNING] stderr:   File "kivy/_event.pyx", line 1214, in kivy._event.EventObservers.dispatch (kivy/_event.c:13511)
+[WARNING] stderr:   File "kivy/_event.pyx", line 1120, in kivy._event.EventObservers._dispatch (kivy/_event.c:12713)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.6/site-packages/kivymd/button.py", line 178, in on_disabled
+[WARNING] stderr:     super(BaseButton, self).on_disabled(instance, value)
+[WARNING] stderr: 

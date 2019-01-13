@@ -1,0 +1,46 @@
+[INFO   ] Logger: Record log in /storage/emulated/0/KivyMD-master/demos/kitchen_sink/.kivy/logs/kivy_19-01-09_8.txt
+[WARNING] [Config      ] Upgrading configuration in progress.
+[WARNING] [Config      ] Older configuration version detected (20 instead of 16)
+[INFO   ] Kivy: v1.9.2-dev0
+[INFO   ] Python: v2.7.12 (default, May 28 2017, 16:18:01) 
+[GCC 4.9 20140827 (prerelease)]
+[INFO   ] Factory: 193 symbols loaded
+[INFO   ] Image: Providers: img_tex, img_dds, img_gif, img_sdl2 (img_pil, img_ffpyplayer ignored)
+[INFO   ] KivyMD: KivyMD version: 0.1.2
+[INFO   ] Text: Provider: sdl2
+[INFO   ] OSC: using <thread> for socket
+[ERROR  ] Input: AndroidJoystick is not supported by your version of linux
+Traceback (most recent call last):
+  File "/data/user/0/com.pydroid.com/files/arm-linux-androideabi/lib/python2.7/site-packages/kivy/input/providers/__init__.py", line 57, in <module>
+    import kivy.input.providers.androidjoystick
+  File "/data/user/0/com.pydroid.com/files/arm-linux-androideabi/lib/python2.7/site-packages/kivy/input/providers/androidjoystick.py", line 28, in <module>
+    import pygame.joystick
+ImportError: No module named pygame.joystick
+[INFO   ] Window: Provider: sdl2
+[INFO   ] GL: OpenGL version <OpenGL ES 3.1 v1.r12p1-01alp0.62f282720426ab7712f1c6b996a6dc82>
+[INFO   ] GL: OpenGL vendor <ARM>
+[INFO   ] GL: OpenGL renderer <Mali-T720>
+[INFO   ] GL: OpenGL parsed version: 3, 1
+[INFO   ] GL: Texture max size <8192>
+[INFO   ] GL: Texture max units <16>
+[INFO   ] Window: auto add sdl2 input provider
+[INFO   ] Window: virtual keyboard not allowed, single mode, not docked
+[INFO   ] GL: NPOT texture support is available
+[INFO   ] Loader: using a thread pool of 2 workers
+[WARNING] MDBottomNavigation: 50dp is less than the minimum size of 80dp for a MDBottomNavigationItem. We must now expand to 168dp.
+[WARNING] MDBottomNavigation: 33dp is less than the minimum size of 80dp for a MDBottomNavigationItem. We must now expand to 168dp.
+[WARNING] MDBottomNavigation: 25dp is less than the minimum size of 80dp for a MDBottomNavigationItem. We must now expand to 168dp.
+[WARNING] MDBottomNavigation: 33dp is less than the minimum size of 80dp for a MDBottomNavigationItem. We must now expand to 168dp.
+[WARNING] MDBottomNavigation: 50dp is less than the minimum size of 80dp for a MDBottomNavigationItem. We must now expand to 168dp.
+[WARNING] Base: Unknown <android> provider
+[INFO   ] Base: Start application main loop
+[WARNING] Accordion: not enough space for displaying all children
+[WARNING] Accordion: need 264px, got 100px
+[WARNING] Accordion: layout aborted.
+[WARNING] Accordion: not enough space for displaying all children
+[WARNING] Accordion: need 264px, got 100px
+[WARNING] Accordion: layout aborted.
+[WARNING] Accordion: not enough space for displaying all children
+[WARNING] Accordion: need 264px, got 100px
+[WARNING] Accordion: layout aborted.
+[INFO   ] Base: Leaving application in progress...
